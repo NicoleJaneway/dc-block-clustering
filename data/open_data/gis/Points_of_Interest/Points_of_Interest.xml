@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <origin/>
+                <title>Points of Interest (Address Alias Names)</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <publish>DC GIS</publish>
+                </pubinfo>
+                <onlink>http://dcatlas.dcgis.dc.gov/catalog/download.asp?downloadName=AddressAliasPt&amp;downloadTYPE=KMZ</onlink>
+                <onlink>http://dcatlas.dcgis.dc.gov/catalog/download.asp?downloadName=AddressAliasPt&amp;downloadTYPE=ESRI</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Address Alias Point locations. The dataset contains locations and attributes of Address Alias points, created as part of the Master Address Repository (MAR) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. It contains the addresses alias names in the District of Columbia which are typically placed on the buildings. These alias names represent named features such as: - Schools - Federal Buildings - Military Installations - Hospitals - Museums - Monuments - University Structures - Fire and Police Stations - Libraries - Metro Facilities - Historical Landmarks - Recreation Centers All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.</abstract>
+            <purpose>Points of interest in the District of Columbia from the Master Address Repository alias table.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20100101</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Continually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.114296</westbc>
+                <eastbc>-76.912195</eastbc>
+                <northbc>38.985672</northbc>
+                <southbc>38.812209</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Building Number</themekey>
+                <themekey>Street Address</themekey>
+                <themekey>Landmark</themekey>
+                <themekey>Address</themekey>
+                <themekey>Street Number</themekey>
+                <themekey>Quadrant</themekey>
+                <themekey>Address Location</themekey>
+                <themekey>Address Point</themekey>
+                <themekey>location</themekey>
+                <themekey>Point Of Interest</themekey>
+                <themekey>Street Type</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>location</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>DCGIS</placekey>
+                <placekey>DC</placekey>
+                <placekey>DC GIS</placekey>
+                <placekey>Washington</placekey>
+                <placekey>D.C.</placekey>
+                <placekey>District of Columbia</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>4th St NW, Suite 930 South</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20001</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntfax>(202) 727-5660</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:30 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>DC Department of Consumer and Regulatory Affairs DC Office of the Chief Technology Officer</datacred>
+        <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.2.6.1500</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Data believed to be complete and accurate, subject to change. In process of validation by source and/or responsible agency. OCTO GIS staff review a sample portion of the alias records.</attraccr>
+        </attracc>
+        <logic>Validated by source and/or responsible agency</logic>
+        <complete>The address alias points contain most of the categories of landmark and key named features in the District, as of current project requirements. As these requirements change, additional categories may be added.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Building centroids were generated using ArcGIS and used to generate the first pass of MAR points. On the second pass, it was found that the OwnerPts were not always on buildings and therefore had to be moved to the building centroids. Wherever building footprints did not exist in the building layer but the building appeared on the ortho, a visual center of the building on the ortho was used.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>N/A</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20050101</pubdate>
+                        <title>DC GIS Database</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>DC GIS Database</srccitea>
+                <srccontr>attributes and location</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>OCTO GIS used the names and addresses from the feature layers in the DC GIS database to create aliases in the DC Master Address Repository (MAR). 1. Staff geocode the feature layer to the MAR. This determines which features are in the MAR and which ones need to be added. 2. Staff then research and verify addresses for the rejected features and prepare them for inclusion in the MAR. 3. The feature names are standardized and completely spelled out (no abbreviations). 4. The names are added to the alias tables in the MAR using the MAR address ID and the feature name. Since some named places in DC are known by several names, the alias layer contains stacked points. Each point represents an alias for the named place.</procdesc>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>441 4th St NW, Suite 930 South</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20001</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntfax>202-727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30am - 5:30pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>5380</ptvctcnt>
+            </sdtsterm>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>5380</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DCGIS.AddressAliasPt</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>SSL</attrlabl>
+                <attrdef>Square suffix lot</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CLUSTER_</attrlabl>
+                <attrdef>Address Alias Neighborhood Cluster Value</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>VOTE_PRCNCT</attrlabl>
+                <attrdef>Address Alias Voting Precinct</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CFSA_NAME</attrlabl>
+                <attrdef>Address Alias CFSA Area Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ENTRANCETYPE</attrlabl>
+                <attrdef>Address entrance type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STREET_TYPE</attrlabl>
+                <attrdef>Street type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ALIASNAME</attrlabl>
+                <attrdef>Address Alias Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FULLADDRESS</attrlabl>
+                <attrdef>Address Number, Street Name, and Quadrant</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS_ID</attrlabl>
+                <attrdef>Address Identifier</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STATUS</attrlabl>
+                <attrdef>Address Alias Status</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADDRALIAS_ID</attrlabl>
+                <attrdef>Address Alias Identifier</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CENSUS_TRACT</attrlabl>
+                <attrdef>Address Alias Census Tract</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROC</attrlabl>
+                <attrdef>Address Alias Police Regional Operations Command Area</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>POLDIST</attrlabl>
+                <attrdef>Address Alias Police District</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>TYPE_</attrlabl>
+                <attrdef>Address Alias type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ALIASTYPE</attrlabl>
+                <attrdef>Address Alias Type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>METADATA_ID</attrlabl>
+                <attrdef>Metadata Identifier</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>HOTSPOT</attrlabl>
+                <attrdef>Address Alias Hot Spot Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PSA</attrlabl>
+                <attrdef>Address Alias Police Service Area</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+                <attrdef>Address Alias Zip Code</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NEWCOMMSELECT06</attrlabl>
+                <attrdef>Address Alias New Community 2006 Selected Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ASSESSMENT_SUBNBHD</attrlabl>
+                <attrdef>Address Alias Assessment Subneighborhood Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SUFFIX</attrlabl>
+                <attrdef>Address Alias Suffix value</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LOT</attrlabl>
+                <attrdef>Address Alias lot value</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SQUARE</attrlabl>
+                <attrdef>Address Alias Square Value</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>YCOORD</attrlabl>
+                <attrdef>Y Coordinate of Address Alias Point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NATIONALGRID</attrlabl>
+                <attrdef>Address Alias National Grid Coordinate</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ANC</attrlabl>
+                <attrdef>Address Alias Advisory Neighborhood Commission</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STATE</attrlabl>
+                <attrdef>Address Alias State</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>QUADRANT</attrlabl>
+                <attrdef>Address Alias quadrant value</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>XCOORD</attrlabl>
+                <attrdef>X Coordinate of Address Alias Point</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADDRNUMSUFFIX</attrlabl>
+                <attrdef>Address Number Suffix</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SITE_ADDRESS_PK</attrlabl>
+                <attrdef>Site address primary key</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ASSESSMENT_NBHD</attrlabl>
+                <attrdef>Address Alias Assessment Neighborhood Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SMD</attrlabl>
+                <attrdef>Address Alias Single Member District value</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NEWCOMMCANDIDATE</attrlabl>
+                <attrdef>Address Alias New Community Candidate Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>FOCUS_IMPROVEMENT_AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATUS_ID</attrlabl>
+                <attrdef>Address Alias Status ID</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE4</attrlabl>
+                <attrdef>Address Alias Zip Code</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CITY</attrlabl>
+                <attrdef>Address Alias City</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADDRNUM</attrlabl>
+                <attrdef>Address Number</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STNAME</attrlabl>
+                <attrdef>Street Name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>WARD</attrlabl>
+                <attrdef>Address ward value</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ROADWAYSEGID</attrlabl>
+                <attrdef>unique roadway segment identifier</attrdef>
+                <attrdefs>DDOT</attrdefs>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>441 4th St NW, Suite 930 South</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20001</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntfax>(202) 727-5660</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </distrib>
+        <distliab>Acknowledgment of the DC Geographic Information Systems Program (DC GIS). The District of Columbia Government makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a particular use, nor are any such warranties to be implied or inferred with respect to the information or data furnished herein.</distliab>
+        <custom>Most DC GIS datasets can be downloaded from "http://dcgis.dc.gov" on the data center page. Orders can also be made by contacting OCTO GIS at "dcgis@dc.gov", especially for datasets not available for download.</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20110909</metd>
+        <metrd>8/31/2005</metrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>441 4th St NW, Suite 930 South</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20001</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+                <cntfax>(202) 727-5660</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:30 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
