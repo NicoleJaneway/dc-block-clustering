@@ -2,10 +2,10 @@ cluster_assignment,ALIASNAME,Labels,GEOID,poi_url
 1,PHILLIPS COLLECTION,Phillips Collection,110010055001003,https://washington-org.s3.amazonaws.com/s3fs-public/image-c_fitw_800h_600crmwashingtondc627_phillipsinterior_rothko_fb74b395-5056-a348-3a4ea9b82c6aa022-3724.jpg
 2,WOODROW WILSON HOUSE,Woodrow Wilson House,110010041003014,https://washington-org.s3.amazonaws.com/s3fs-public/image-c_fitw_800h_600crmwashingtondc157_kitchennewphoto_fb935bc1-5056-a348-3ade290cecdba4f4-3255.jpg
 3,DUMBARTON OAKS,Dumbarton Oaks,110010001001000,https://i.pinimg.com/originals/6e/20/fa/6e20fa728bbb0755434b2697c922d56b.jpg
-4,RENWICK,Renwick,110010107001033,https://www.wbdg.org/sites/default/files/renwick_cover.jpg
+4,RENWICK,Renwick Musuem of American Art,110010107001033,https://www.wbdg.org/sites/default/files/renwick_cover.jpg
 5,NATIONAL ZOO SPEEDWELL FOUNDATION CONSERVATION CAROUSEL,National Zoo Speedwell Foundation Conservation Carousel,110010005011004,https://nationalzoo.si.edu/sites/default/files/styles/480x240_scale_and_crop/public/visit/carousel.jpg?itok=PmkZMcPk&timestamp=1531924180
 6,WASHINGTON DOLLS' HOUSE AND TOY MUSEUM,Washington Dolls' House and Toy Museum,110010010011002,https://americanhistory.si.edu/sites/default/files/exhibitions/bradford_b.jpg
-7,OLD STONE HOUSE,Old Stone House,110010001004005,https://upload.wikimedia.org/wikipedia/commons/1/1e/The_Old_Stone_House.jpg
-8,GALLAUDET BUILDING,Gallaudet Building,110010088031018,https://www.collegevaluesonline.com/wp-content/uploads/2017/02/asl-and-deaf-studies_success-stories_inset-image.jpg
-9,NATIONAL GALLERY OF ART SCULPTURE GARDEN ICE SKATING RINK,National Gallery of Art Sculpture Garden Ice Skating Rink,110010062021104,http://secureservercdn.net/198.71.233.129/9jo.7ce.myftpupload.com/wp-content/uploads/2018/12/washington-times.jpg
+7,OLD STONE HOUSE,Old Stone House in Georgetown,110010001004005,https://upload.wikimedia.org/wikipedia/commons/1/1e/The_Old_Stone_House.jpg
+8,GALLAUDET BUILDING,Gallaudet University Museum,110010088031018,https://www.collegevaluesonline.com/wp-content/uploads/2017/02/asl-and-deaf-studies_success-stories_inset-image.jpg
+9,NATIONAL GALLERY OF ART SCULPTURE GARDEN ICE SKATING RINK,National Gallery of Art Sculpture Garden Ice Rink,110010062021104,http://secureservercdn.net/198.71.233.129/9jo.7ce.myftpupload.com/wp-content/uploads/2018/12/washington-times.jpg
 10,FREER GALLERY OF ART,Freer Gallery of Art,110010062021148,https://www.si.edu/sites/default/files/styles/press_photo/public/newsdesk/photos/freer_0.jpg?itok=0RBsaQA-
