@@ -6,4 +6,4 @@ The objective of this project is to create a neighborhood explorer tool to help 
 
 <br>
 
-<a href='http://tabsoft.co/2tvaznJ'> ![alt text](https://github.com/NicoleJaneway/dc-block-clustering/tree/master/img/tableau.png "Interactive neighborhood explorer tool")</a>
+<a href='http://tabsoft.co/2tvaznJ'> ![Interactive neighborhood explorer tool](https://github.com/NicoleJaneway/dc-block-clustering/tree/master/img/tableau.png) </a>
