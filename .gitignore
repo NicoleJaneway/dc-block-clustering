@@ -1,2 +1,4 @@
 # Do not upload contents within "ignore" folder
 /ignore
+.DS_Store
+.ipynb_checkpoint
