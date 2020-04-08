@@ -10,8 +10,28 @@ The objective of this project is to create a neighborhood explorer tool to help 
 
 <br>
 
-<a href='https://opendata.dc.gov/datasets/points-of-interest/data'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi1.png?raw=true) </a>
+<a href='http://tabsoft.co/2tvaznJ'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi0.png?raw=true)</a>
 
 <br>
 
-<a href='https://opendata.dc.gov/datasets/points-of-interest/data'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi2.png?raw=true)
+<a href='https://opendata.dc.gov/datasets/points-of-interest/data'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi0.png?raw=true) </a>
+
+<br>
+
+<a href='http://tabsoft.co/2tvaznJ'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi2.1.png?raw=true)</a>
+
+<br>
+
+<a href='http://tabsoft.co/2tvaznJ'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi3.png?raw=true) </a>
+ 
+<br>
+
+<a href='http://tabsoft.co/2tvaznJ'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi4.png?raw=true) </a>
+ 
+<br>
+
+<a href='https://opendata.dc.gov/datasets/points-of-interest/data'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi5.png?raw=true) </a>
+
+<br>
+
+<a href='http://tabsoft.co/2tvaznJ'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi6.png?raw=true) </a>
