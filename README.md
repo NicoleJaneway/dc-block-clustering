@@ -14,6 +14,10 @@ The objective of this project is to create a neighborhood explorer tool to help 
 
 <br>
 
+<a href='http://tabsoft.co/2tvaznJ'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi1.png?raw=true)</a>
+
+<br>
+
 <a href='http://tabsoft.co/2tvaznJ'> ![Points of Interest](https://github.com/NicoleJaneway/dc-block-clustering/blob/master/img/poi2.png?raw=true)</a>
 
 <br>
